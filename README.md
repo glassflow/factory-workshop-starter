@@ -26,6 +26,8 @@ uv run ruff check .
 
 ## Feature ideas for the workshop
 
-- **Tags:** add tags to a link on create, and filter with `GET /links?tag=`.
+Start with the click counter: it is the smallest of the three.
+
 - **Click counter:** count each redirect and show it at `GET /links/{code}/stats`.
 - **Expiry:** accept `expires_at` on create; an expired code returns 410.
+- **Tags:** add tags to a link on create, and filter with `GET /links?tag=`.
